@@ -58,17 +58,15 @@ A full PCB replacement for the RF modulator can itself.
 
 ---
 
-## 🧩 Issue 3B Schematic (Work in Progress)
+## 🧩 Issue 3B Schematic
 
-A full schematic for the **Issue 3B motherboard** is currently being drafted.  
-It lives in the main **`/src`** directory alongside the KiCad PCB project and is already far enough along to be useful for reference, verification, and troubleshooting.
+A full schematic for the **Issue 3B motherboard** is now complete.  
+It lives in the main **`/src`** directory alongside the KiCad PCB project and is useful for reference, verification, and troubleshooting.
 
 - Based on the reconstructed PCB  
 - Continuously refined as traces and nets are validated  
 - Intended to become a complete, accurate representation of the 3B circuitry  
-- A PDF export is also included in **`/images`** for quick viewing
-
-This schematic will evolve as the project progresses, but it is already a solid and reliable companion to the board reconstruction.
+- A PDF export is also included in **`/documents`** for quick viewing
 
 ---
 
@@ -76,6 +74,12 @@ This schematic will evolve as the project progresses, but it is already a solid 
 
 | Path | Description |
 |------|-------------|
+| `/bom` | Interactive Bill of Materials |
+| `/case` | £D models and images of a alternatice case |
+| `/documents` | Schematics etc. |
+| `/gerber` | Fabrication files |
+| `/images` | Images of the PCB's |
+| `/keyboard` | Mechanical Keyswitch Keyboard to fit the Case |
 | `/src` | KiCad project files for the Issue 3B board |
 | `/zx_coil` | Coil replacement PCB |
 | `/zx_composite_mod` | Composite mod PCB (internal modulator replacement) |
@@ -125,6 +129,14 @@ Please open an issue or pull request with clear details so changes can be review
 
 ---
 
+## 🤝 Credits
+
+Based on the redraw by PABB - https://www.pcbway.com/project/shareproject/ZX_Spectrum_48_Issue_3B_Redrawn.html
+
+Special thanks to Liveboxandy for reconstructing the base footprints for the iBOM and 3D Models view and Dee for the Coil, Keyboard and Audio Connectors and Modulator 3D Models. (Hopeing for something extra special soon).
+
+---
+
 ## 📜 License
 
 This project is released for educational, preservation, and hobbyist use.  
@@ -139,4 +151,4 @@ Please respect the historical significance of the original hardware.
 
 ### **Open in KiCad**
 ```bash
-git clone https://github.com/Bambleweeny57/zxspectrum_issue3b
+git clone https://github.com/Bambelweeny57/zxspectrum_issue3b
