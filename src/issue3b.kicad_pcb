@@ -125,7 +125,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerbers")
+			(outputdirectory "../gerber/")
 		)
 	)
 	(footprint "Mod:C_Axial_L3.8mm_D2.6mm_P12.70mm_Horizontal"
