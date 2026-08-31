@@ -125,7 +125,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Gerbers")
+			(outputdirectory "../gerber/")
 		)
 	)
 	(footprint "Mod:C_Axial_L3.8mm_D2.6mm_P12.70mm_Horizontal"
@@ -186,6 +186,12 @@
 		(path "/00000000-0000-0000-0000-000067f487cb")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -417,15 +423,15 @@
 			(uuid "267b9459-e714-48b3-a0c3-945e73f0cd48")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Vertical.step"
+		(model "${KIPRJMOD}/STPS/Crystal-Low.stp"
 			(offset
-				(xyz -2.54 4.5 0)
+				(xyz -0.25 4.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 90 0 0)
 			)
 		)
 	)
@@ -487,6 +493,12 @@
 		(path "/6338a338-ca00-4c7d-9531-3767b58bdbb2")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -633,6 +645,12 @@
 		(path "/00000000-0000-0000-0000-000060e8d022")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -889,6 +907,12 @@
 		(path "/00000000-0000-0000-0000-00006811a4f7")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1034,6 +1058,15 @@
 		(path "/00000000-0000-0000-0000-00005fb7c6b9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "19" "20" "23" "24" "26" "28" "39" "14" "13" "40" "15" "16" "17"
+					"31" "32" "30" "29" "12" "27" "25" "33" "22" "21" "38" "18" "3" "4"
+					"34" "2" "36" "37" "11" "10" "9" "8" "35" "7" "6" "5" "1"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1631,6 +1664,14 @@
 		(path "/00000000-0000-0000-0000-0000680280b9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "4" "15" "7" "9" "5" "6" "13" "12" "11" "10" "1" "16"
+					"8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -1894,7 +1935,7 @@
 			(uuid "0a1e6795-8e0c-4f58-85ab-190ef3271902")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1902,7 +1943,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -1964,6 +2016,12 @@
 		(path "/00000000-0000-0000-0000-000060081e42")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2110,6 +2168,12 @@
 		(path "/00000000-0000-0000-0000-000066187043")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2167,8 +2231,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "VIDEO")
@@ -2177,8 +2241,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -2256,6 +2320,12 @@
 		(path "/00000000-0000-0000-0000-0000724eb357")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2313,8 +2383,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C43-Pad1)")
@@ -2323,8 +2393,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR5-C)")
@@ -2402,6 +2472,12 @@
 		(path "/00000000-0000-0000-0000-000060c7bd38")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2459,8 +2535,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -2469,8 +2545,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D1")
@@ -2548,6 +2624,12 @@
 		(path "/00000000-0000-0000-0000-000063641e97")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2605,8 +2687,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC14-CHROMA_OSC_OUTPUT)")
@@ -2615,8 +2697,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -2693,6 +2775,14 @@
 		(path "/00000000-0000-0000-0000-00005fbb1ce2")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "15" "13" "10" "11" "12" "6" "7" "5" "4" "9" "8" "1"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -2956,7 +3046,7 @@
 			(uuid "a6763b81-8f1a-48fa-81e8-cd54786e6bfa")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -2964,7 +3054,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -3026,6 +3127,12 @@
 		(path "/00000000-0000-0000-0000-000060179d9f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3216,6 +3323,12 @@
 		(path "/361066f1-a4c0-452e-985b-f323e50f215f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3406,6 +3519,12 @@
 		(path "/00000000-0000-0000-0000-00006147d25c")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3552,6 +3671,12 @@
 		(path "/00000000-0000-0000-0000-0000605043d0")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3742,6 +3867,12 @@
 		(path "/00000000-0000-0000-0000-000060f089af")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -3799,8 +3930,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_NMI")
@@ -3809,8 +3940,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -3887,6 +4018,14 @@
 		(path "/00000000-0000-0000-0000-000060fe86f9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "12" "3" "14" "15" "16" "2" "4" "17" "5" "18" "1" "13" "6" "7"
+					"8" "9" "10" "11"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4172,7 +4311,7 @@
 			(uuid "f41e90be-5b74-4351-a726-51fdc9dd4518")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-18_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-18_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4180,7 +4319,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-18_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -4242,6 +4392,12 @@
 		(path "/00000000-0000-0000-0000-0000660d6452")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4388,6 +4544,12 @@
 		(path "/00000000-0000-0000-0000-0000729019c0")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4445,8 +4607,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR5-B)")
@@ -4455,8 +4617,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
@@ -4534,6 +4696,12 @@
 		(path "/00000000-0000-0000-0000-00006811a57f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4742,17 +4910,6 @@
 			(uuid "2b61c178-764e-48c9-b88b-9c00edc92821")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Speaker SM230332-2.stp"
-			(offset
-				(xyz 0 0 6)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 90 -90 -0)
-			)
-		)
 	)
 	(footprint "Mod:R_Yageo_L3.6mm_D1.6mm_P12.70mm_Horizontal"
 		(layer "F.Cu")
@@ -4812,6 +4969,12 @@
 		(path "/00000000-0000-0000-0000-00005fc4802a")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -4869,8 +5032,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LA4")
@@ -4879,8 +5042,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC3-2Y)")
@@ -4958,6 +5121,12 @@
 		(path "/00000000-0000-0000-0000-0000650dc6e8")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5015,8 +5184,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR2-C)")
@@ -5025,8 +5194,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR1-B)")
@@ -5104,6 +5273,12 @@
 		(path "/00000000-0000-0000-0000-00006811a4b3")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5250,6 +5425,12 @@
 		(path "/00000000-0000-0000-0000-00005ff6bdce")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5307,8 +5488,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-D1)")
@@ -5317,8 +5498,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D1")
@@ -5396,6 +5577,12 @@
 		(path "/00000000-0000-0000-0000-000060c2ba1f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "MP" "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -5675,15 +5862,15 @@
 			(uuid "3f0a9fcc-bdce-4dfc-959f-88f76241935d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DC Power Connector FC68148_20DC10A_202.1mm.STP"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.step"
 			(offset
-				(xyz -14 0 6.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -5745,6 +5932,12 @@
 		(path "/00000000-0000-0000-0000-0000678fb1dc")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5891,6 +6084,12 @@
 		(path "/00000000-0000-0000-0000-000060d44228")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -5948,8 +6147,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D5")
@@ -5958,8 +6157,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -6033,6 +6232,12 @@
 		(path "/baf73b44-f8bf-4258-8b9a-8389f68413bb")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6197,6 +6402,12 @@
 		(path "/00000000-0000-0000-0000-00005fc30c8f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -6373,6 +6584,14 @@
 		(path "/00000000-0000-0000-0000-00006811a558")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "4" "15" "7" "9" "5" "6" "13" "12" "11" "10" "1" "16"
+					"8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6636,7 +6855,7 @@
 			(uuid "efb362e1-8a05-4cdf-b523-7b81d731d1be")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6644,7 +6863,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6706,6 +6936,12 @@
 		(path "/00000000-0000-0000-0000-0000654b8173")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -6763,8 +6999,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR1-B)")
@@ -6773,8 +7009,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -6852,6 +7088,12 @@
 		(path "/00000000-0000-0000-0000-000061d93d95")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -7108,6 +7350,12 @@
 		(path "/00000000-0000-0000-0000-0000603571ed")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -7254,6 +7502,12 @@
 		(path "/00000000-0000-0000-0000-00006015a77f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -7572,6 +7826,17 @@
 			(net "Net-(TR2-C)")
 			(pinfunction "+5V_1")
 			(pintype "passive")
+			(uuid "a48171d4-5b48-4b58-bef9-bb050d4da8ce")
+		)
+		(pad "1" thru_hole circle
+			(at -24.3845 11.0337)
+			(size 1.778 1.778)
+			(drill 1.016)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net "Net-(TR2-C)")
+			(pinfunction "+5V_1")
+			(pintype "passive")
 			(uuid "a5aa8ee9-de43-49cd-b44a-3f66bccbc6af")
 		)
 		(pad "2" thru_hole circle
@@ -7608,17 +7873,6 @@
 			(uuid "8ffc4734-6708-4e05-a49f-f25435be63c8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/RF MOD Astec UM1233 E36.step"
-			(offset
-				(xyz -0.3 -1.54 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
 	)
 	(footprint "Mod:DIP-16_W7.62mm_Socket"
 		(layer "F.Cu")
@@ -7677,6 +7931,14 @@
 		(path "/00000000-0000-0000-0000-00006811a48c")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "4" "15" "7" "9" "5" "6" "13" "12" "11" "10" "1" "16"
+					"8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -7940,7 +8202,7 @@
 			(uuid "816e50c8-88ee-4140-ad8f-1ae550570ce8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7948,7 +8210,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -8010,6 +8283,12 @@
 		(path "/00000000-0000-0000-0000-000060d1bb2c")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8067,8 +8346,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D2")
@@ -8077,8 +8356,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -8156,6 +8435,12 @@
 		(path "/00000000-0000-0000-0000-00005fccfcf3")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8213,8 +8498,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LA0")
@@ -8223,8 +8508,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC4-2Y)")
@@ -8302,6 +8587,12 @@
 		(path "/00000000-0000-0000-0000-0000612d138c")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8448,6 +8739,12 @@
 		(path "/00000000-0000-0000-0000-00005fed9d70")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8505,8 +8802,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_IO_RQULA")
@@ -8515,8 +8812,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_IO_REQ")
@@ -8590,6 +8887,12 @@
 		(path "/1c0a4fd3-2d6d-4c37-92be-eb4a04655d9f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -8697,17 +9000,6 @@
 			(uuid "a5a343ea-026f-4883-83d9-c32aded2a76f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/WireLink 7.62mm 1430-3.STEP"
-			(offset
-				(xyz -3.85 0 -5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "Mod:D_DO-35_SOD27_P12.70mm_Horizontal"
 		(layer "F.Cu")
@@ -8767,6 +9059,12 @@
 		(path "/00000000-0000-0000-0000-000060d10f55")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -8840,6 +9138,17 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "710c14ea-50d1-4ccd-a54f-7c0f0d3ea9ea")
+		)
+		(fp_text user "K"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "9c89dfa4-d706-457c-8309-da5175102750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.65 0 0)
@@ -8957,6 +9266,12 @@
 		(path "/00000000-0000-0000-0000-00005ffcdc67")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9014,8 +9329,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-D6)")
@@ -9024,8 +9339,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D6")
@@ -9103,6 +9418,12 @@
 		(path "/00000000-0000-0000-0000-0000626adac9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9249,6 +9570,12 @@
 		(path "/00000000-0000-0000-0000-000060de2ead")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "MP" "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole rect
@@ -9285,15 +9612,15 @@
 			(uuid "5dbc7c0b-1cea-43ad-841a-ac06ca03b9e4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/AUDIO_JACK_3PIN.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.step"
 			(offset
-				(xyz -0.254 0.254 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9355,6 +9682,12 @@
 		(path "/00000000-0000-0000-0000-00006073214f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9611,6 +9944,12 @@
 		(path "/00000000-0000-0000-0000-0000608d607f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9757,6 +10096,12 @@
 		(path "/00000000-0000-0000-0000-00006057fd08")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9903,6 +10248,12 @@
 		(path "/9fe06674-d4e5-4943-b157-db41fea1a0b7")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -9960,8 +10311,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/_LRAS")
@@ -9970,8 +10321,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_RFSH")
@@ -10049,6 +10400,12 @@
 		(path "/00000000-0000-0000-0000-0000680280e0")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10147,7 +10504,7 @@
 			(at 3.81 -2.33 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "87cee2e0-937e-477f-a1a6-9f208119d96e")
+			(uuid "316deb77-215f-4c6b-998d-9c9ac10eeb41")
 			(effects
 				(font
 					(size 1 1)
@@ -10159,7 +10516,7 @@
 			(at 3.81 20.11 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9dd2e2ad-e9a6-4170-958a-778e91b968ae")
+			(uuid "892dbd31-1807-4d28-82fb-80bde85bbe7e")
 			(effects
 				(font
 					(size 1 1)
@@ -10171,7 +10528,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e6ee220-8fc4-4f7f-9a66-a40f23dc2cf3")
+			(uuid "2efe80d6-2a5d-45f5-8f15-ec22e07b2b89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,7 +10540,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be81dbd2-7651-47fa-9d6f-e8ba16786fb6")
+			(uuid "f009cd14-6d9e-4d97-9786-9d02aa4207e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,6 +10551,14 @@
 		(path "/00000000-0000-0000-0000-00005fc6bdf9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "16" "12" "4" "7" "9" "1" "15" "8" "14" "13" "2" "3" "5" "6" "11"
+					"10"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10457,7 +10822,7 @@
 			(uuid "9573ac01-6f15-428f-9bdb-dbfa73e57a3d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10465,7 +10830,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -10527,6 +10903,12 @@
 		(path "/00000000-0000-0000-0000-0000609f97b2")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -10584,8 +10966,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(EAR1-Pad2)")
@@ -10594,8 +10976,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.4 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -10671,6 +11053,12 @@
 		(path "/00000000-0000-0000-0000-000060cf2709")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "11" "12" "13" "14" "15")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -10796,8 +11184,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at -5.08 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB0)")
@@ -10809,8 +11197,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at -2.54 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB1)")
@@ -10821,8 +11209,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 0 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB2)")
@@ -10833,8 +11221,8 @@
 		)
 		(pad "4" thru_hole circle
 			(at 2.54 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB3)")
@@ -10845,8 +11233,8 @@
 		)
 		(pad "5" thru_hole circle
 			(at 5.08 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB4)")
@@ -10857,8 +11245,8 @@
 		)
 		(pad "11" thru_hole circle
 			(at -5.08 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB0)")
@@ -10869,8 +11257,8 @@
 		)
 		(pad "12" thru_hole circle
 			(at -2.54 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB1)")
@@ -10881,8 +11269,8 @@
 		)
 		(pad "13" thru_hole circle
 			(at 0 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB2)")
@@ -10893,8 +11281,8 @@
 		)
 		(pad "14" thru_hole circle
 			(at 2.54 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB3)")
@@ -10905,8 +11293,8 @@
 		)
 		(pad "15" thru_hole circle
 			(at 5.08 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB4)")
@@ -10916,7 +11304,7 @@
 			(uuid "55d5746a-11a9-413e-89df-c9e8dc0348ef")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CONN-TH_5P-P2.54_520315-5.step"
+		(model "${KIPRJMOD}/STPS/22-02-3053.stp"
 			(offset
 				(xyz 0 1 0)
 			)
@@ -10924,7 +11312,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 180)
 			)
 		)
 	)
@@ -10985,6 +11373,14 @@
 		(path "/00000000-0000-0000-0000-00005fbc23d8")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "15" "13" "10" "11" "12" "6" "7" "5" "4" "9" "8" "1"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11248,7 +11644,7 @@
 			(uuid "8e8da1e6-4ee4-4597-b5fa-3f4dd90ec6c9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11256,7 +11652,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -11318,6 +11725,28 @@
 		(path "/00000000-0000-0000-0000-00006e302666")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+			(unit
+				(name "B")
+				(pins "4" "5" "6")
+			)
+			(unit
+				(name "C")
+				(pins "9" "10" "8")
+			)
+			(unit
+				(name "D")
+				(pins "12" "13" "11")
+			)
+			(unit
+				(name "E")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11547,7 +11976,7 @@
 			(uuid "538b2a84-6339-4213-9d34-a3d07902af99")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-14_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-14_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11555,7 +11984,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-14_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -11618,6 +12058,12 @@
 		(path "/00000000-0000-0000-0000-000073139669")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "6" "2" "4" "5" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_text user "${REFERENCE}"
@@ -11700,17 +12146,6 @@
 			(uuid "eae361a8-020b-452e-b924-45560494772c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/COIL_L1.step"
-			(offset
-				(xyz -0.5 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -0 -0 -0)
-			)
-		)
 	)
 	(footprint "Mod:C_Axial_L3.8mm_D2.6mm_P12.70mm_Horizontal"
 		(layer "F.Cu")
@@ -11770,6 +12205,12 @@
 		(path "/00000000-0000-0000-0000-000060340e68")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -11916,6 +12357,12 @@
 		(path "/00000000-0000-0000-0000-000072bbb331")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12062,6 +12509,12 @@
 		(path "/00000000-0000-0000-0000-0000718cd0a1")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12208,6 +12661,12 @@
 		(path "/00000000-0000-0000-0000-00006036b073")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12354,6 +12813,12 @@
 		(path "/00000000-0000-0000-0000-000065a00208")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12411,8 +12876,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR1-E)")
@@ -12421,8 +12886,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -12500,6 +12965,12 @@
 		(path "/00000000-0000-0000-0000-000063878c9e")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12557,8 +13028,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC14-CHROMA_OSC_OUTPUT)")
@@ -12567,8 +13038,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C72-Pad1)")
@@ -12646,6 +13117,12 @@
 		(path "/00000000-0000-0000-0000-0000627ab600")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -12791,6 +13268,14 @@
 		(path "/00000000-0000-0000-0000-00005fbc2428")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "15" "13" "10" "11" "12" "6" "7" "5" "4" "9" "8" "1"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13054,7 +13539,7 @@
 			(uuid "c48f39d4-6bf6-455a-aebb-1836203bde18")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13062,7 +13547,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -13124,6 +13620,12 @@
 		(path "/00000000-0000-0000-0000-00005fc46de2")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13181,8 +13683,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LA5")
@@ -13191,8 +13693,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC3-1Y)")
@@ -13270,6 +13772,12 @@
 		(path "/00000000-0000-0000-0000-000060d44222")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13327,8 +13835,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D4")
@@ -13337,8 +13845,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -13416,6 +13924,12 @@
 		(path "/00000000-0000-0000-0000-00005fcd3abf")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13473,8 +13987,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -13483,8 +13997,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB4)")
@@ -13562,6 +14076,12 @@
 		(path "/00000000-0000-0000-0000-000062b3a336")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13619,8 +14139,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC14-B-Y_INPUT)")
@@ -13629,8 +14149,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR9-C)")
@@ -13708,6 +14228,12 @@
 		(path "/00000000-0000-0000-0000-00006011b72b")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -13765,8 +14291,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR3-B)")
@@ -13775,8 +14301,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_CK")
@@ -13856,6 +14382,12 @@
 		(path "/00000000-0000-0000-0000-000062fe4eaa")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14001,8 +14533,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR9-C)")
@@ -14013,8 +14545,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 -2.545 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR9-B)")
@@ -14025,8 +14557,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR9-B)")
@@ -14037,8 +14569,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 5.2578 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -14050,13 +14582,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/STPS/Transistor Kinked Lead.stp"
 			(offset
-				(xyz 2.65 0 10)
+				(xyz 2.65 0 14)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -180 -0 -0)
+				(xyz 180 0 0)
 			)
 		)
 	)
@@ -14118,6 +14650,28 @@
 		(path "/00000000-0000-0000-0000-00006f0432a2")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+			(unit
+				(name "B")
+				(pins "4" "5" "6")
+			)
+			(unit
+				(name "C")
+				(pins "9" "10" "8")
+			)
+			(unit
+				(name "D")
+				(pins "12" "13" "11")
+			)
+			(unit
+				(name "E")
+				(pins "14" "7")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -14347,7 +14901,7 @@
 			(uuid "44166378-71bf-45c7-8ad4-a1a08bf79ea8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-14_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-14_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14355,7 +14909,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-14_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -14413,6 +14978,12 @@
 		(path "/71cb466a-b4c0-451e-bb3e-a85eba6a7cda")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -14579,6 +15150,12 @@
 		(path "/00000000-0000-0000-0000-00006048bcdf")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -15268,6 +15845,12 @@
 		(path "/00000000-0000-0000-0000-00006177fefa")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -15341,6 +15924,17 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "dbdab7a0-c686-4c82-9d11-4f658d1e542a")
+		)
+		(fp_text user "K"
+			(at 0 -1.8 180)
+			(layer "F.SilkS")
+			(uuid "6da6f2b6-9f24-444f-8fad-450e2da39879")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.65 0 180)
@@ -15458,6 +16052,12 @@
 		(path "/00000000-0000-0000-0000-00005fc80ea0")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -15603,6 +16203,14 @@
 		(path "/00000000-0000-0000-0000-00005fbaebfa")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "15" "13" "10" "11" "12" "6" "7" "5" "4" "9" "8" "1"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -15866,7 +16474,7 @@
 			(uuid "77043e0c-dbaa-40b3-a6d5-933ad2291d9f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15874,7 +16482,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -15938,6 +16557,12 @@
 		(path "/00000000-0000-0000-0000-00005ffd2d56")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -16083,8 +16708,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC2-~{CLK})")
@@ -16095,8 +16720,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR3-B)")
@@ -16107,8 +16732,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 5.2578 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -16118,15 +16743,15 @@
 			(uuid "c8000f34-1f10-42a1-81f2-35f92459cdba")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/TO-92S_Normal_LF42_rev1.0.STEP"
+		(model "${KIPRJMOD}/Stps/Package_TO_SOT_THT.3dshapes/TO-92Flat.step"
 			(offset
-				(xyz 1.27 0 2.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -16188,6 +16813,12 @@
 		(path "/00000000-0000-0000-0000-000060d1bb32")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16245,8 +16876,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D3")
@@ -16255,8 +16886,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -16334,6 +16965,12 @@
 		(path "/00000000-0000-0000-0000-0000612e05a3")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16480,6 +17117,12 @@
 		(path "/00000000-0000-0000-0000-000063907d0c")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16626,6 +17269,12 @@
 		(path "/00000000-0000-0000-0000-0000634a2fac")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16683,8 +17332,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR9-B)")
@@ -16693,8 +17342,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -16772,6 +17421,12 @@
 		(path "/00000000-0000-0000-0000-0000724ef1a9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -16829,8 +17484,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR5-B)")
@@ -16839,8 +17494,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -16917,6 +17572,14 @@
 		(path "/00000000-0000-0000-0000-00005fbc2400")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "15" "13" "10" "11" "12" "6" "7" "5" "4" "9" "8" "1"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17180,7 +17843,7 @@
 			(uuid "07271ee3-bf21-4201-80df-71ed5cd2407f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17188,7 +17851,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -17250,6 +17924,12 @@
 		(path "/00000000-0000-0000-0000-000061b9fe36")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17506,6 +18186,12 @@
 		(path "/00000000-0000-0000-0000-000060b98104")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17762,6 +18448,12 @@
 		(path "/00000000-0000-0000-0000-000062099b3b")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -17819,8 +18511,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D11-A)")
@@ -17829,8 +18521,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D12-K)")
@@ -17909,6 +18601,12 @@
 		(path "/00000000-0000-0000-0000-000072233aff")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -18054,8 +18752,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR5-C)")
@@ -18066,8 +18764,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR5-B)")
@@ -18078,8 +18776,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 5.2578 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -18089,15 +18787,15 @@
 			(uuid "19040c10-7589-4cfa-a792-0e38b230869d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/TO-92S_Normal_LF42_rev1.0.STEP"
+		(model "${KIPRJMOD}/Stps/Package_TO_SOT_THT.3dshapes/TO-92Flat.step"
 			(offset
-				(xyz 1.27 0 3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -18159,6 +18857,12 @@
 		(path "/00000000-0000-0000-0000-00006037ebc2")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18305,6 +19009,12 @@
 		(path "/00000000-0000-0000-0000-0000714deaac")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18561,6 +19271,12 @@
 		(path "/00000000-0000-0000-0000-0000605b8d8d")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18751,6 +19467,12 @@
 		(path "/00000000-0000-0000-0000-0000609984c7")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -18808,8 +19530,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D13-K)")
@@ -18818,8 +19540,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.4 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C31-Pad1)")
@@ -18895,6 +19617,12 @@
 		(path "/00000000-0000-0000-0000-000070fa4ed9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -19364,6 +20092,14 @@
 		(path "/00000000-0000-0000-0000-00005fbc23b0")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "15" "13" "10" "11" "12" "6" "7" "5" "4" "9" "8" "1"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -19627,7 +20363,7 @@
 			(uuid "e0460f84-4159-444e-9275-3cd79203fdc6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19635,7 +20371,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -19697,6 +20444,12 @@
 		(path "/00000000-0000-0000-0000-000060fed58d")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -19754,8 +20507,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_WAIT")
@@ -19764,8 +20517,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -19843,6 +20596,12 @@
 		(path "/00000000-0000-0000-0000-0000605f506f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20035,6 +20794,12 @@
 		(path "/00000000-0000-0000-0000-000061034a55")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -20180,8 +20945,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -20192,8 +20957,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "A0")
@@ -20204,8 +20969,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 5.2578 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_IO_RQULA")
@@ -20215,15 +20980,15 @@
 			(uuid "4ef1a4a3-2d01-4a19-b177-9a13ff87d4d3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/TO-92S_Normal_LF42_rev1.0.STEP"
+		(model "${KIPRJMOD}/Stps/Package_TO_SOT_THT.3dshapes/TO-92Flat.step"
 			(offset
-				(xyz 1.27 0 3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -20285,6 +21050,12 @@
 		(path "/00000000-0000-0000-0000-00005fd65a29")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20342,8 +21113,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC3-S)")
@@ -20352,8 +21123,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/_LRAS")
@@ -20431,6 +21202,12 @@
 		(path "/00000000-0000-0000-0000-00006f534311")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20577,6 +21354,12 @@
 		(path "/00000000-0000-0000-0000-00005ff20293")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20634,8 +21417,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-_INT)")
@@ -20644,8 +21427,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_INT")
@@ -20723,6 +21506,12 @@
 		(path "/00000000-0000-0000-0000-000061085c2b")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -20780,8 +21569,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -20790,8 +21579,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_RESET")
@@ -20871,6 +21660,12 @@
 		(path "/00000000-0000-0000-0000-000061d1711a")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21016,8 +21811,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR8-C)")
@@ -21028,8 +21823,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 -2.545 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR8-B)")
@@ -21040,8 +21835,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR8-B)")
@@ -21052,8 +21847,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 5.2578 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -21065,13 +21860,13 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/STPS/Transistor Kinked Lead.stp"
 			(offset
-				(xyz 2.65 -0.25 10)
+				(xyz 2.65 0 14)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -180 -0 -0)
+				(xyz 180 0 0)
 			)
 		)
 	)
@@ -21131,6 +21926,14 @@
 		(path "/00000000-0000-0000-0000-000060446561")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "11" "12" "13" "14" "15" "16" "17"
+					"18"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -21267,8 +22070,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at -8.89 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D1-A)")
@@ -21280,8 +22083,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at -6.35 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2-A)")
@@ -21292,8 +22095,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at -3.81 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D3-A)")
@@ -21304,8 +22107,8 @@
 		)
 		(pad "4" thru_hole circle
 			(at -1.27 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D4-A)")
@@ -21316,8 +22119,8 @@
 		)
 		(pad "5" thru_hole circle
 			(at 1.27 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D5-A)")
@@ -21328,8 +22131,8 @@
 		)
 		(pad "6" thru_hole circle
 			(at 3.81 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D6-A)")
@@ -21340,8 +22143,8 @@
 		)
 		(pad "7" thru_hole circle
 			(at 6.35 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D7-A)")
@@ -21352,8 +22155,8 @@
 		)
 		(pad "8" thru_hole circle
 			(at 8.89 0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D8-A)")
@@ -21364,8 +22167,8 @@
 		)
 		(pad "11" thru_hole circle
 			(at -8.89 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D1-A)")
@@ -21376,8 +22179,8 @@
 		)
 		(pad "12" thru_hole circle
 			(at -6.35 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D2-A)")
@@ -21388,8 +22191,8 @@
 		)
 		(pad "13" thru_hole circle
 			(at -3.81 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D3-A)")
@@ -21400,8 +22203,8 @@
 		)
 		(pad "14" thru_hole circle
 			(at -1.27 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D4-A)")
@@ -21412,8 +22215,8 @@
 		)
 		(pad "15" thru_hole circle
 			(at 1.27 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D5-A)")
@@ -21424,8 +22227,8 @@
 		)
 		(pad "16" thru_hole circle
 			(at 3.81 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D6-A)")
@@ -21436,8 +22239,8 @@
 		)
 		(pad "17" thru_hole circle
 			(at 6.35 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D7-A)")
@@ -21448,8 +22251,8 @@
 		)
 		(pad "18" thru_hole circle
 			(at 8.89 -0.9575)
-			(size 1.6 1.6)
-			(drill 1)
+			(size 1.37 1.37)
+			(drill 1.02)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D8-A)")
@@ -21459,15 +22262,15 @@
 			(uuid "376c1fc5-cbc0-4615-a4a7-368e867a2db1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CONN-TH_8P-P2.54_520315-8.step"
+		(model "${KIPRJMOD}/STPS/22-02-3083.stp"
 			(offset
-				(xyz 0 -1 0)
+				(xyz 0 1 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -180)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -21529,6 +22332,12 @@
 		(path "/00000000-0000-0000-0000-000061266501")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21674,6 +22483,14 @@
 		(path "/00000000-0000-0000-0000-00005fb7e5de")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "15" "13" "10" "11" "12" "6" "7" "5" "4" "9" "8" "1"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -21937,7 +22754,7 @@
 			(uuid "daef1780-b32e-4dea-94de-e4d6a2e741d4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21945,7 +22762,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -22007,6 +22835,12 @@
 		(path "/00000000-0000-0000-0000-00005fc3551e")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22064,8 +22898,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LA6")
@@ -22074,8 +22908,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC3-4Y)")
@@ -22153,6 +22987,12 @@
 		(path "/00000000-0000-0000-0000-0000710f9c14")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22409,6 +23249,12 @@
 		(path "/00000000-0000-0000-0000-00005fe62133")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22466,8 +23312,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_CK")
@@ -22476,8 +23322,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -22555,6 +23401,12 @@
 		(path "/00000000-0000-0000-0000-00006133c3da")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22701,6 +23553,12 @@
 		(path "/00000000-0000-0000-0000-000063b4b6db")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -22758,8 +23616,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC14-CHROMA_LAG)")
@@ -22768,8 +23626,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C38-Pad2)")
@@ -22846,6 +23704,14 @@
 		(path "/00000000-0000-0000-0000-00006811a514")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "4" "15" "7" "9" "5" "6" "13" "12" "11" "10" "1" "16"
+					"8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23109,7 +23975,7 @@
 			(uuid "2fa7c7c7-3751-4cbd-b7b8-e5f849c5e192")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23117,7 +23983,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -23179,6 +24056,12 @@
 		(path "/00000000-0000-0000-0000-000062240fdf")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23236,8 +24119,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -23246,8 +24129,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "U")
@@ -23325,6 +24208,12 @@
 		(path "/00000000-0000-0000-0000-00005ffbf242")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23382,8 +24271,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-D5)")
@@ -23392,8 +24281,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D5")
@@ -23471,6 +24360,12 @@
 		(path "/00000000-0000-0000-0000-000060d44234")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23528,8 +24423,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D7")
@@ -23538,8 +24433,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -23613,6 +24508,12 @@
 		(path "/9fcf97ba-8961-49f7-91e7-a603f47e554f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -23779,6 +24680,12 @@
 		(path "/00000000-0000-0000-0000-00005fca47ef")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -23836,8 +24743,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -23846,8 +24753,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB3)")
@@ -23925,6 +24832,12 @@
 		(path "/d74d04a2-354d-4769-b7fd-f0b749ba6d32")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole dnp)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24186,15 +25099,15 @@
 			(uuid "a6c9a192-6e5f-414a-a9b6-633bd0cf07cc")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC49-U_Horizontal_1EP_style1.step"
+		(model "${KIPRJMOD}/STPS/Crystal-HC18-U RA.STEP"
 			(offset
-				(xyz -8.5 -2.5 0)
+				(xyz -7 0 2.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz 180 0 -90)
 			)
 		)
 	)
@@ -24256,6 +25169,12 @@
 		(path "/00000000-0000-0000-0000-00005fe6ae00")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24511,6 +25430,14 @@
 		(path "/00000000-0000-0000-0000-000066964c74")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "12" "9" "7" "4" "1" "15" "8" "16" "13" "14" "10" "11" "6" "5"
+					"3" "2"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24774,7 +25701,7 @@
 			(uuid "d7a968da-9e71-4f44-b499-693fed44f0ba")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -24782,7 +25709,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -24844,6 +25782,12 @@
 		(path "/00000000-0000-0000-0000-0000648c5b41")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -24901,8 +25845,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR2-C)")
@@ -24911,8 +25855,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC14-CHROMA_SUB-CARRIER)")
@@ -24990,6 +25934,12 @@
 		(path "/00000000-0000-0000-0000-00006015389f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25138,6 +26088,12 @@
 		(path "/00000000-0000-0000-0000-0000607b17e6")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -25283,8 +26239,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+9V")
@@ -25295,8 +26251,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(D9-K)")
@@ -25307,8 +26263,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 5.2578 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR7-E)")
@@ -25318,15 +26274,15 @@
 			(uuid "634ad6f2-b4c4-4533-8fdc-adb81bbd21c2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/TO-92S_Normal_LF42_rev1.0.STEP"
+		(model "${KIPRJMOD}/Stps/Package_TO_SOT_THT.3dshapes/TO-92Flat.step"
 			(offset
-				(xyz 1.27 0 3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -25388,6 +26344,12 @@
 		(path "/00000000-0000-0000-0000-00006f3f61f4")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25445,8 +26407,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C64-Pad1)")
@@ -25455,8 +26417,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC25-S)")
@@ -25534,6 +26496,12 @@
 		(path "/00000000-0000-0000-0000-000060070c61")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25679,6 +26647,14 @@
 		(path "/00000000-0000-0000-0000-0000680280fd")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "4" "15" "7" "9" "5" "6" "13" "12" "11" "10" "1" "16"
+					"8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -25942,7 +26918,7 @@
 			(uuid "51eed06b-9a6a-47a2-9e62-864b16e03051")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25950,7 +26926,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -26011,6 +26998,14 @@
 		(path "/00000000-0000-0000-0000-00005fca814a")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "12" "4" "7" "16" "9" "1" "15" "8" "14" "13" "2" "3" "5" "6" "11"
+					"10"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26274,7 +27269,7 @@
 			(uuid "c6c06dc2-6658-4311-adaa-34fd5776cf0c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26282,7 +27277,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -26344,6 +27350,12 @@
 		(path "/00000000-0000-0000-0000-000060c2dc71")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26401,8 +27413,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -26411,8 +27423,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D0")
@@ -26490,6 +27502,12 @@
 		(path "/647dd1cd-d2c2-41fa-aa89-4704d312c6c9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "2" "4")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26542,6 +27560,58 @@
 			)
 			(layer "F.Fab")
 			(uuid "35d80a9e-0cf9-42f3-a456-00ca09700a35")
+		)
+		(fp_text user "N"
+			(at 3.45 -1.125 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "7a236a0e-735a-4c2d-9ce2-8642d3fe9929")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "H"
+			(at -1.225 3.025 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "45e30d3b-2ed5-44e7-a13a-2f562cfb0c95")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "H"
+			(at 7.65 3.075 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0dcc7512-8373-4666-aadc-87067c02809c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
+		)
+		(fp_text user "N"
+			(at 3.525 7.725 270)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "e6fa0b13-fa7f-4010-9211-518f1be49f24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 3.81 3.81 90)
@@ -26600,26 +27670,15 @@
 			(uuid "455f1475-e817-4c5c-b46f-d037abaac2a0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/WireLink 7.62mm 1430-3.STEP"
+		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x02_P2.54mm_Vertical.step"
 			(offset
-				(xyz 0 0 -4.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
-		(model "${KIPRJMOD}/STPS/WireLink 7.62mm 1430-3.STEP"
-			(offset
-				(xyz 0 -7.5 -5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -26680,6 +27739,14 @@
 		(path "/00000000-0000-0000-0000-00006695f58c")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "12" "9" "7" "4" "1" "15" "8" "16" "13" "14" "10" "11" "6" "5"
+					"3" "2"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -26943,7 +28010,7 @@
 			(uuid "fcb7b311-0988-44fd-8f09-e426c993df4d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -26951,7 +28018,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -27013,6 +28091,12 @@
 		(path "/00000000-0000-0000-0000-00005fc46439")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27070,8 +28154,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -27080,8 +28164,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB1)")
@@ -27159,6 +28243,12 @@
 		(path "/00000000-0000-0000-0000-000065cb31ae")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27415,6 +28505,12 @@
 		(path "/00000000-0000-0000-0000-000062531517")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27561,6 +28657,12 @@
 		(path "/00000000-0000-0000-0000-000061055977")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27707,6 +28809,12 @@
 		(path "/00000000-0000-0000-0000-00006575953f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27764,8 +28872,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR2-C)")
@@ -27774,8 +28882,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR1-C)")
@@ -27853,6 +28961,12 @@
 		(path "/00000000-0000-0000-0000-00006f2bdbb4")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -27910,8 +29024,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C63-Pad1)")
@@ -27920,8 +29034,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/_URAS")
@@ -27999,6 +29113,12 @@
 		(path "/00000000-0000-0000-0000-0000601d432d")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28145,6 +29265,12 @@
 		(path "/00000000-0000-0000-0000-000064529d34")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28202,8 +29328,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C38-Pad1)")
@@ -28212,8 +29338,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -28291,6 +29417,12 @@
 		(path "/00000000-0000-0000-0000-000060fee8ed")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28348,8 +29480,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12VA")
@@ -28358,8 +29490,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC14-VIDEO_INPUT)")
@@ -28437,6 +29569,12 @@
 		(path "/00000000-0000-0000-0000-00005fbe113a")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28583,6 +29721,12 @@
 		(path "/00000000-0000-0000-0000-000061039ac8")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28640,8 +29784,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_BUS_REQ")
@@ -28650,8 +29794,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -28728,6 +29872,14 @@
 		(path "/00000000-0000-0000-0000-00006811a4d0")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "4" "15" "7" "9" "5" "6" "13" "12" "11" "10" "1" "16"
+					"8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -28991,7 +30143,7 @@
 			(uuid "0645a7a0-245b-4a95-bb98-09e04e5284c4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -28999,7 +30151,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -29060,6 +30223,14 @@
 		(path "/00000000-0000-0000-0000-000066ad9de7")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "4" "15" "7" "9" "5" "6" "13" "12" "11" "10" "1" "16"
+					"8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29323,7 +30494,7 @@
 			(uuid "8466f304-2fe2-4631-bc44-f7e1c368da77")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -29331,7 +30502,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -29393,6 +30575,12 @@
 		(path "/00000000-0000-0000-0000-000068028124")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29539,6 +30727,12 @@
 		(path "/00000000-0000-0000-0000-000061b36a56")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29685,6 +30879,12 @@
 		(path "/00000000-0000-0000-0000-00005ff6bdc8")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -29742,8 +30942,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-D0)")
@@ -29752,8 +30952,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D0")
@@ -29833,6 +31033,12 @@
 		(path "/00000000-0000-0000-0000-0000732a25d7")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -29978,8 +31184,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-12VAC")
@@ -29990,8 +31196,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(T1-AB)")
@@ -30002,8 +31208,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 5.2578 0 90)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -30013,15 +31219,15 @@
 			(uuid "8142de38-e232-4eb6-9ed3-13964861d5d9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/TO-92S_Normal_LF42_rev1.0.STEP"
+		(model "${KIPRJMOD}/Stps/Package_TO_SOT_THT.3dshapes/TO-92Flat.step"
 			(offset
-				(xyz 1.27 0 3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -30083,6 +31289,12 @@
 		(path "/00000000-0000-0000-0000-00006517ec82")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30228,6 +31440,14 @@
 		(path "/00000000-0000-0000-0000-000067f487a4")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "4" "15" "7" "9" "5" "6" "13" "12" "11" "10" "1" "16"
+					"8"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30491,7 +31711,7 @@
 			(uuid "18ab6919-58ae-4d85-8c3b-0b50634ef400")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -30499,7 +31719,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -30563,6 +31794,12 @@
 		(path "/00000000-0000-0000-0000-0000660255d5")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -30743,15 +31980,15 @@
 			(uuid "b50a78ed-1b5f-4f74-8fc3-8c93f77d3e15")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/TO-92S_Normal_LF42_rev1.0.STEP"
+		(model "${KIPRJMOD}/Stps/Package_TO_SOT_THT.3dshapes/TO-92Flat.step"
 			(offset
-				(xyz 1.27 0 3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -30813,6 +32050,12 @@
 		(path "/00000000-0000-0000-0000-000061f18504")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -30870,8 +32113,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12VA")
@@ -30880,8 +32123,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+12V")
@@ -30959,6 +32202,12 @@
 		(path "/00000000-0000-0000-0000-00005fc501e9")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31016,8 +32265,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LA3")
@@ -31026,8 +32275,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC3-3Y)")
@@ -31105,6 +32354,12 @@
 		(path "/00000000-0000-0000-0000-000060d4422e")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31162,8 +32417,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D6")
@@ -31172,8 +32427,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -31251,6 +32506,12 @@
 		(path "/00000000-0000-0000-0000-0000621c7380")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31308,8 +32569,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -31318,8 +32579,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "V")
@@ -31397,6 +32658,12 @@
 		(path "/00000000-0000-0000-0000-0000646f5567")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31454,8 +32721,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -31464,8 +32731,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Y")
@@ -31543,6 +32810,12 @@
 		(path "/4a91f1dd-b43d-4737-a0e6-103ce06f43d6")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31689,6 +32962,12 @@
 		(path "/00000000-0000-0000-0000-00006419cc3c")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -31835,6 +33114,12 @@
 		(path "/00000000-0000-0000-0000-0000604c7fe3")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32025,6 +33310,12 @@
 		(path "/00000000-0000-0000-0000-00005ff6bdd4")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32082,8 +33373,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-D2)")
@@ -32092,8 +33383,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D2")
@@ -32171,6 +33462,12 @@
 		(path "/00000000-0000-0000-0000-000062ab7605")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32228,8 +33525,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC14-R-Y_INPUT)")
@@ -32238,8 +33535,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR8-C)")
@@ -32317,6 +33614,12 @@
 		(path "/00000000-0000-0000-0000-00006074d3fb")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32390,17 +33693,6 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "36362d81-88a3-4d66-9c21-8edfec05c8e5")
-		)
-		(fp_text user "K"
-			(at 0 -1.8 0)
-			(layer "F.SilkS")
-			(uuid "ee462a1d-86f2-430d-8dab-e716029c0a0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 6.65 0 0)
@@ -32518,6 +33810,12 @@
 		(path "/00000000-0000-0000-0000-000060936c08")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32575,8 +33873,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(EAR1-Pad2)")
@@ -32585,8 +33883,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.4 0 270)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C32-Pad1)")
@@ -32664,6 +33962,12 @@
 		(path "/00000000-0000-0000-0000-0000614f2c01")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32920,6 +34224,12 @@
 		(path "/00000000-0000-0000-0000-00005ffbf23c")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -32977,8 +34287,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-D4)")
@@ -32987,8 +34297,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D4")
@@ -33062,6 +34372,12 @@
 		(path "/491e1758-b8d8-4db6-a5ec-f15f7074449b")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33169,17 +34485,6 @@
 			(uuid "637e1c54-39e6-41c7-9fe8-dc44270b5c59")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/WireLink 7.62mm 1430-3.STEP"
-			(offset
-				(xyz -3.85 0 -5)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -0)
-			)
-		)
 	)
 	(footprint "Mod:TO-92Flat"
 		(layer "F.Cu")
@@ -33241,6 +34546,12 @@
 		(path "/00000000-0000-0000-0000-0000656b012e")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -33386,8 +34697,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR1-C)")
@@ -33398,8 +34709,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 2.6416 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR1-B)")
@@ -33410,8 +34721,8 @@
 		)
 		(pad "3" thru_hole circle
 			(at 5.2578 0 180)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.05 1.05)
+			(drill 0.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR1-E)")
@@ -33421,15 +34732,15 @@
 			(uuid "bd20938d-9d09-4ee7-ab82-998bd775ac4a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/TO-92S_Normal_LF42_rev1.0.STEP"
+		(model "${KIPRJMOD}/Stps/Package_TO_SOT_THT.3dshapes/TO-92Flat.step"
 			(offset
-				(xyz 1.27 0 3)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -33491,6 +34802,12 @@
 		(path "/00000000-0000-0000-0000-00005fccfce7")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -33548,8 +34865,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LA2")
@@ -33558,8 +34875,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC4-4Y)")
@@ -34031,7 +35348,7 @@
 			(uuid "56f52e3a-236d-4a86-baa1-4b79873ef6d1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-28_W15.24mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-28_W15.24mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34039,7 +35356,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-28_W15.24mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -34101,6 +35429,12 @@
 		(path "/00000000-0000-0000-0000-000060093003")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34247,6 +35581,12 @@
 		(path "/00000000-0000-0000-0000-00005fe7c2ad")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34503,6 +35843,12 @@
 		(path "/00000000-0000-0000-0000-00005fccfced")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34560,8 +35906,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "/LA1")
@@ -34570,8 +35916,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC4-1Y)")
@@ -34649,6 +35995,12 @@
 		(path "/00000000-0000-0000-0000-00006057c989")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34839,6 +36191,12 @@
 		(path "/00000000-0000-0000-0000-000060392127")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -34985,6 +36343,12 @@
 		(path "/00000000-0000-0000-0000-00006026b696")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -35042,8 +36406,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC2-~{CLK})")
@@ -35052,8 +36416,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -35131,6 +36495,12 @@
 		(path "/00000000-0000-0000-0000-000065039f1b")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -35188,8 +36558,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Y")
@@ -35198,8 +36568,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR1-B)")
@@ -35276,6 +36646,14 @@
 		(path "/00000000-0000-0000-0000-00005fbaa007")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "14" "3" "15" "13" "10" "11" "12" "6" "7" "5" "4" "9" "8" "1"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -35539,7 +36917,7 @@
 			(uuid "94c6bd7c-52ce-468a-9ba1-3a2258ecc22d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35547,7 +36925,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-16_W7.62mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -35609,6 +36998,12 @@
 		(path "/00000000-0000-0000-0000-00005fe6ced4")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -35755,6 +37150,12 @@
 		(path "/00000000-0000-0000-0000-00005fc75575")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -35812,8 +37213,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -35822,8 +37223,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB2)")
@@ -35901,6 +37302,12 @@
 		(path "/00000000-0000-0000-0000-0000600181ae")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -36047,6 +37454,12 @@
 		(path "/00000000-0000-0000-0000-000072e7800f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -36104,8 +37517,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C43-Pad1)")
@@ -36114,8 +37527,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(T1-AA)")
@@ -36193,6 +37606,12 @@
 		(path "/00000000-0000-0000-0000-000060cb0914")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "MP" "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(pad "1" thru_hole rect
@@ -36229,15 +37648,15 @@
 			(uuid "35698260-87b7-45ad-98be-f8086e2f65fe")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/AUDIO_JACK_3PIN.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.step"
 			(offset
-				(xyz -0.246 0.254 0)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -90)
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -36298,6 +37717,15 @@
 		(path "/00000000-0000-0000-0000-00005fe8e819")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "16" "20" "19" "21" "22" "4" "5" "3" "36" "2" "35" "1" "34"
+					"40" "23" "33" "39" "32" "38" "31" "18" "37" "30" "28" "27" "14" "15"
+					"12" "8" "7" "9" "10" "13" "11" "17" "24" "25" "26" "29"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -36815,7 +38243,7 @@
 			(uuid "3bc5878c-ba7f-4e6f-96e8-db321934bd3c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-40_W15.24mm.step"
+		(model "${KIPRJMOD}/Stps/DIP-40_W15.24mm_Socket.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36823,7 +38251,18 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -0 -0 -0)
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/Stps/DIP-40_W15.24mm.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -36885,6 +38324,12 @@
 		(path "/00000000-0000-0000-0000-000061ef52fc")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -36942,8 +38387,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR8-B)")
@@ -36952,8 +38397,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -37031,6 +38476,12 @@
 		(path "/e4d8f3dc-3c4c-40e1-b4e1-31429cbc03b2")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -37088,8 +38539,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "-5V")
@@ -37098,8 +38549,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -37177,6 +38628,12 @@
 		(path "/00000000-0000-0000-0000-000060a2edbb")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -37234,8 +38691,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "_ROMCS")
@@ -37244,8 +38701,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-_ROMCS)")
@@ -37319,6 +38776,12 @@
 		(path "/cc56e430-e640-47c0-a631-4b11831d9de6")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -37485,6 +38948,12 @@
 		(path "/00000000-0000-0000-0000-00006044a511")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -37675,6 +39144,12 @@
 		(path "/00000000-0000-0000-0000-00006f66c912")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -37821,6 +39296,12 @@
 		(path "/00000000-0000-0000-0000-000060540708")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -38011,6 +39492,12 @@
 		(path "/00000000-0000-0000-0000-000073f25420")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -38157,6 +39644,12 @@
 		(path "/00000000-0000-0000-0000-00006272c79f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -38303,6 +39796,12 @@
 		(path "/00000000-0000-0000-0000-00005ffcdc6d")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -38360,8 +39859,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-D7)")
@@ -38370,8 +39869,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D7")
@@ -38449,6 +39948,12 @@
 		(path "/00000000-0000-0000-0000-000061c26a30")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -38506,8 +40011,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC14-CHROMA_BIAS)")
@@ -38516,8 +40021,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -38595,6 +40100,12 @@
 		(path "/00000000-0000-0000-0000-0000642353e4")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -38741,6 +40252,12 @@
 		(path "/00000000-0000-0000-0000-000064b3a4aa")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -38798,8 +40315,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(TR2-C)")
@@ -38808,8 +40325,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -38887,6 +40404,12 @@
 		(path "/00000000-0000-0000-0000-000063e251bc")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -39033,6 +40556,12 @@
 		(path "/00000000-0000-0000-0000-00005ffbf236")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -39090,8 +40619,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-D3)")
@@ -39100,8 +40629,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "D3")
@@ -39179,6 +40708,12 @@
 		(path "/00000000-0000-0000-0000-00005fbb81f7")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
@@ -39236,8 +40771,8 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "+5V")
@@ -39246,8 +40781,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0)
-			(size 1.6 1.6)
-			(drill 0.8)
+			(size 1.4 1.4)
+			(drill 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(IC1-KB0)")
