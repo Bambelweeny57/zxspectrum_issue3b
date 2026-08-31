@@ -133,7 +133,7 @@ Please open an issue or pull request with clear details so changes can be review
 
 Based on the redraw by PABB - https://www.pcbway.com/project/shareproject/ZX_Spectrum_48_Issue_3B_Redrawn.html
 
-Special thanks to Liveboxandy for reconstructing the base footprints for the iBOM and 3D Models view and Dee for the Coil, Keyboard and Audio Connectors and Modulator 3D Models. (Hopeing for something extra special soon).
+Special thanks to Liveboxandy for reconstructing the base footprints for the iBOM and 3D Models view and Dee for the Coil, Keyboard and Audio Connectors and Modulator 3D Models. (Hoping for something extra special soon).
 
 ---
 
