@@ -4742,15 +4742,15 @@
 			(uuid "2b61c178-764e-48c9-b88b-9c00edc92821")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Speaker SM230332-2.stp"
+		(model "${KIPRJMOD}/STPS/ZX Spectrum Speaker 40ohm.step"
 			(offset
-				(xyz 0 0 6)
+				(xyz 0 -0.4 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 -90 -0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -7406,7 +7406,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2cdc0287-8fd1-4200-a3b4-e2ef0e9e9d4a")
+			(uuid "2c2797ec-bff3-4c63-a670-0ebd2fb8f380")
 			(effects
 				(font
 					(size 1 1)
@@ -7420,7 +7420,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a3f12bc7-8da5-4130-9ccd-5f5a614caf83")
+			(uuid "2347958e-8390-4840-ba13-ad2a3464dcfe")
 			(effects
 				(font
 					(size 1 1)
@@ -7433,7 +7433,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "eede5caf-e35a-4a19-b849-07cbc6a5c48e")
+			(uuid "79875159-f24a-47bd-9fdf-87610531c42c")
 			(effects
 				(font
 					(size 1 1)
@@ -7446,7 +7446,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "24fcbdbc-3f6b-411e-b9e9-083a7bf44547")
+			(uuid "b9fe09c0-667c-4922-9e6b-796b3fe839c5")
 			(effects
 				(font
 					(size 1 1)
@@ -7457,12 +7457,6 @@
 		(path "/00000000-0000-0000-0000-00006086c64f")
 		(sheetname "/")
 		(sheetfile "issue3b.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "2" "1")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7538,7 +7532,7 @@
 			(uuid "5297fc30-a0eb-4125-8d1b-3e38ed96b24b")
 		)
 		(fp_text user "COMP"
-			(at -26.5 -0.75 0)
+			(at -26.95925 -0.636 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4f64fc0d-3872-4942-b9f7-b110ef428fbf")
@@ -7610,7 +7604,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/STPS/RF MOD Astec UM1233 E36.step"
 			(offset
-				(xyz -0.3 -1.54 0)
+				(xyz -0.754 -1.04 0)
 			)
 			(scale
 				(xyz 1 1 1)
