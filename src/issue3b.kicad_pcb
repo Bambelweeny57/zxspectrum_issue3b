@@ -1562,15 +1562,15 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "${KIPRJMOD}/Stps/DIP-40_W15.24mm.step"
+		(model "${KIPRJMOD}/STPS/FERRANTI_ULA_6C001E-7.step"
 			(offset
-				(xyz 0 0 3.5)
+				(xyz 7.5 -50 3.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3344,7 +3344,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -3680,7 +3680,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -7393,7 +7393,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -8889,7 +8889,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -14701,7 +14701,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -15390,7 +15390,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -18683,7 +18683,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -19965,7 +19965,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -31957,7 +31957,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -32450,7 +32450,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -34025,9 +34025,9 @@
 			(uuid "56f52e3a-236d-4a86-baa1-4b79873ef6d1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-28_W15.24mm.step"
+		(model "${KIPRJMOD}/STPS/ROM HITACHI HN613128P.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -35 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -34771,7 +34771,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -36809,9 +36809,9 @@
 			(uuid "3bc5878c-ba7f-4e6f-96e8-db321934bd3c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/Stps/DIP-40_W15.24mm.step"
+		(model "${KIPRJMOD}/STPS/Z80 - NEC 8308P8.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 7.5 -50 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -37607,7 +37607,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
@@ -37943,7 +37943,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 90 0 -90)
+				(xyz -90 -0 90)
 			)
 		)
 	)
