@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "height": 2.26,
+          "width": 2.26
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -107,7 +107,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "ignore",
         "microvia_drill_out_of_range": "ignore",
         "mirrored_text_on_front_layer": "warning",
@@ -594,7 +594,7 @@
       "plot": "../gerber/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "STPS/issue3b.step",
       "svg": "",
       "vrml": ""
     },

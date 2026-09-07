@@ -819,15 +819,15 @@
 			(uuid "b0db3db4-53c8-4ac6-8bf8-c6cc5fd60435")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -6797,11 +6797,11 @@
 	(footprint "Mod:CP_Axial_L11.0mm_D6.0mm_P20.32mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2e9c065f-9e77-4bb1-a845-a5a7e1bc49bd")
-		(at 202.073 122.8 -90)
+		(at 201.84 122.76 -90)
 		(descr "CP, Axial series, Axial, Horizontal, pin pitch=20.32mm, length*diameter=11*6mm^2, Electrolytic Capacitor")
 		(tags "CP Axial series Axial Horizontal pin pitch 20.32mm length 11mm diameter 6mm Electrolytic Capacitor")
 		(property "Reference" "C47"
-			(at 9 -4.12 180)
+			(at 9 -4.12 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eef14e1d-67b0-49de-a33d-6d2cdf226fc5")
@@ -6813,7 +6813,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 9 4.12 180)
+			(at 9 4.12 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f123499-a53b-4993-86dd-0874341b7a02")
@@ -6825,7 +6825,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.cde.com/resources/catalogs/TTA.pdf"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "17c2524c-09f1-445f-8954-0a4f559818af")
@@ -6837,7 +6837,7 @@
 			)
 		)
 		(property "Description" "Capacitor Aluminium Electrolytic"
-			(at 0 0 180)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c07a268-4496-4961-b037-d3ec56631362")
@@ -7006,7 +7006,7 @@
 			(uuid "ff7d567f-e81f-4fbd-bf2a-ef57de2c2aa0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 9 0 180)
+			(at 9 0 0)
 			(layer "F.Fab")
 			(uuid "c32597d6-04c3-489c-b183-854e46461ca4")
 			(effects
@@ -7038,15 +7038,15 @@
 			(uuid "c5b7d29a-4037-4e1c-ad3a-8666f8588db4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7328,17 +7328,6 @@
 			(layer "F.Fab")
 			(uuid "2092a35d-9cff-4161-8750-881671af3e06")
 		)
-		(fp_text user "K"
-			(at 0 -1.8 0)
-			(layer "F.SilkS")
-			(uuid "fcc0f4e2-6101-41f6-bb80-2cb6df4e9cfa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 6.65 0 0)
 			(layer "F.Fab")
@@ -7363,7 +7352,7 @@
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
-			(size 1.6 1.6)
+			(size 2.26 2.26)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -7375,7 +7364,7 @@
 		)
 		(pad "2" thru_hole circle
 			(at 12.7 0 180)
-			(size 1.6 1.6)
+			(size 2.26 2.26)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -7385,15 +7374,15 @@
 			(uuid "2f881364-53ee-4ec1-9a44-f451f51596b0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70_BA157.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 -0.5)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8691,15 +8680,15 @@
 			(uuid "a5a343ea-026f-4883-83d9-c32aded2a76f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/WireLink 7.62mm 1430-3.STEP"
+		(model "${KIPRJMOD}/STPS/Jumper.step"
 			(offset
-				(xyz -3.85 0 -5)
+				(xyz 0.15 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9535,15 +9524,15 @@
 			(uuid "495188ad-44bc-470d-8505-4df8a2e09f3e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -17430,15 +17419,15 @@
 			(uuid "a1b1f0db-2f43-4ef4-81c7-25db2e05c0c2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -17686,15 +17675,15 @@
 			(uuid "67349f40-e1bb-4894-8d8d-d966172b7b8f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -18485,15 +18474,15 @@
 			(uuid "a4af1038-8bd1-4a7f-ae72-e618147da835")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -19289,15 +19278,15 @@
 			(uuid "cbbf192f-70fe-4b20-ad57-3a268f12dc5e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-220-3_Horizontal_TabDown.step"
+		(model "${KIPRJMOD}/STPS/LM7805 with Heatsink i3.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz 3.25 62.8 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -22333,15 +22322,15 @@
 			(uuid "76c2fe34-926f-41fb-94b5-f387bda4988c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -24436,15 +24425,15 @@
 			(uuid "31b5cdea-4b46-40fe-b4c2-bbe007f5abf2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -26594,26 +26583,26 @@
 			(uuid "455f1475-e817-4c5c-b46f-d037abaac2a0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/WireLink 7.62mm 1430-3.STEP"
+		(model "${KIPRJMOD}/STPS/Jumper.step"
 			(offset
-				(xyz 0 0 -4.5)
+				(xyz 3.75 -0.04 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
-		(model "${KIPRJMOD}/STPS/WireLink 7.62mm 1430-3.STEP"
+		(model "${KIPRJMOD}/STPS/Jumper.step"
 			(offset
-				(xyz 0 -7.5 -5)
+				(xyz 3.75 -7.54 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -27339,15 +27328,15 @@
 			(uuid "49b7bbf4-29a2-40ba-b48e-12ab4d70c986")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -32385,17 +32374,6 @@
 			(layer "F.Fab")
 			(uuid "36362d81-88a3-4d66-9c21-8edfec05c8e5")
 		)
-		(fp_text user "K"
-			(at 0 -1.8 0)
-			(layer "F.SilkS")
-			(uuid "ee462a1d-86f2-430d-8dab-e716029c0a0c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 6.65 0 0)
 			(layer "F.Fab")
@@ -32844,15 +32822,15 @@
 			(uuid "8eda934f-3902-42b8-b4b3-a40bd3e6319e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -33163,15 +33141,15 @@
 			(uuid "637e1c54-39e6-41c7-9fe8-dc44270b5c59")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/WireLink 7.62mm 1430-3.STEP"
+		(model "${KIPRJMOD}/STPS/Jumper.step"
 			(offset
-				(xyz -3.85 0 -5)
+				(xyz 0.15 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -34427,15 +34405,15 @@
 			(uuid "ff91a625-16f2-445f-b965-ee408fb305e9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/CP 13x5x0.5x20.32.STEP"
+		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
 			(offset
-				(xyz 10 0 0)
+				(xyz 10 0 -1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -52866,8 +52844,8 @@
 		(uuid "13b85a26-2313-4484-a7a3-9ac568f7023b")
 	)
 	(gr_circle
-		(center 201.723 122.83)
-		(end 202.785 122.83)
+		(center 201.84 122.76)
+		(end 202.902 122.76)
 		(stroke
 			(width 0)
 			(type solid)
@@ -52877,8 +52855,8 @@
 		(uuid "695542e3-e4e2-477c-841b-5b443180bcd8")
 	)
 	(gr_circle
-		(center 202.0024 143.2008)
-		(end 203.0644 143.2008)
+		(center 201.84 143.08)
+		(end 202.902 143.08)
 		(stroke
 			(width 0)
 			(type solid)
@@ -69086,8 +69064,8 @@
 		(uuid "cbcbfe06-3fef-49b0-9ebb-806daebe70ec")
 	)
 	(gr_circle
-		(center 201.723 122.83)
-		(end 202.785 122.83)
+		(center 201.84 122.76)
+		(end 202.902 122.76)
 		(stroke
 			(width 0)
 			(type solid)
@@ -69097,8 +69075,8 @@
 		(uuid "4f8f153b-39a6-475f-974d-74611a3df779")
 	)
 	(gr_circle
-		(center 202.0024 143.2008)
-		(end 203.0644 143.2008)
+		(center 201.84 143.08)
+		(end 202.902 143.08)
 		(stroke
 			(width 0)
 			(type solid)
@@ -189978,12 +189956,12 @@
 		(uuid "f6397ef5-2e8f-445b-bf7c-971b0e4246ec")
 	)
 	(segment
-		(start 221.789 153.818)
-		(end 223.5854 152.0865)
+		(start 45.7262 119.8413)
+		(end 45.7671 144.5028)
 		(width 2.159)
 		(layer "F.Cu")
 		(net "+12VA")
-		(uuid "00622229-ad6f-4076-a36c-c541863d406f")
+		(uuid "0bb3381f-d68f-4c14-820b-22c3a67c184d")
 	)
 	(segment
 		(start 51.355 115.718)
@@ -190010,6 +189988,14 @@
 		(uuid "272ec6f1-b6e3-48d0-9dfb-267eaef63723")
 	)
 	(segment
+		(start 45.7671 144.5028)
+		(end 55.0998 153.8358)
+		(width 2.159)
+		(layer "F.Cu")
+		(net "+12VA")
+		(uuid "27f332b8-603a-47e7-8bdd-a3c1f5a0c68a")
+	)
+	(segment
 		(start 147.113 151.7352)
 		(end 147.113 153.424)
 		(width 1.27)
@@ -190018,12 +190004,12 @@
 		(uuid "27fdca02-725b-45b9-9530-e9268a338620")
 	)
 	(segment
-		(start 45.7262 119.8413)
-		(end 45.7671 144.5028)
+		(start 55.0998 153.8358)
+		(end 221.789 153.818)
 		(width 2.159)
 		(layer "F.Cu")
 		(net "+12VA")
-		(uuid "37a2a391-91da-4b84-af4c-1f39188f1816")
+		(uuid "2dc3f8e7-c16a-43de-885e-650c9622d5c5")
 	)
 	(segment
 		(start 51.989 88.6786)
@@ -190040,14 +190026,6 @@
 		(layer "F.Cu")
 		(net "+12VA")
 		(uuid "66a41acb-085f-48f8-87c2-8e293abeb2c5")
-	)
-	(segment
-		(start 45.7671 144.5028)
-		(end 55.0998 153.8358)
-		(width 2.159)
-		(layer "F.Cu")
-		(net "+12VA")
-		(uuid "685b4f5d-ad6a-4a01-8c16-1d6eea24ee4c")
 	)
 	(segment
 		(start 51.64 119.051)
@@ -190138,6 +190116,14 @@
 		(uuid "aac713c5-b789-41d8-96bb-a28049f19884")
 	)
 	(segment
+		(start 221.789 153.818)
+		(end 223.9885 151.6185)
+		(width 2.159)
+		(layer "F.Cu")
+		(net "+12VA")
+		(uuid "b3d3fe25-7ff4-4661-acb4-563cea130966")
+	)
+	(segment
 		(start 51.355 116.988)
 		(end 51.609 117.242)
 		(width 1.27)
@@ -190146,20 +190132,20 @@
 		(uuid "c87affab-2938-490e-8493-27e4143111e3")
 	)
 	(segment
+		(start 223.9885 151.6185)
+		(end 224.1155 151.6185)
+		(width 2.159)
+		(layer "F.Cu")
+		(net "+12VA")
+		(uuid "ec71a642-d263-43cd-a70c-00ece8f51556")
+	)
+	(segment
 		(start 79.8582 108.3338)
 		(end 72.6728 108.3338)
 		(width 1.27)
 		(layer "F.Cu")
 		(net "+12VA")
 		(uuid "ee234cde-9021-42f7-946f-72d4855b6377")
-	)
-	(segment
-		(start 55.0998 153.8358)
-		(end 221.789 153.818)
-		(width 2.159)
-		(layer "F.Cu")
-		(net "+12VA")
-		(uuid "f52c98e1-0f80-4abc-8c86-b123233c52ad")
 	)
 	(via
 		(at 51.863 101.494)
