@@ -593,7 +593,7 @@
       "netlist": "",
       "plot": "../gerber/",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "issue3b.dsn",
       "step": "STPS/issue3b.step",
       "svg": "",
       "vrml": ""
