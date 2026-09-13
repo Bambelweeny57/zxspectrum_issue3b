@@ -10901,7 +10901,7 @@
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/STPS/CONN-TH_5P-P2.54_520315-5.step"
 			(offset
-				(xyz 0 1 0)
+				(xyz 0 -1 0)
 			)
 			(scale
 				(xyz 1 1 1)
