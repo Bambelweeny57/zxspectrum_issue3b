@@ -2956,7 +2956,7 @@
 			(uuid "a6763b81-8f1a-48fa-81e8-cd54786e6bfa")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ITT_4116.step"
+		(model "${KIPRJMOD}/STPS/STC_4116.step"
 			(offset
 				(xyz 3.75 -8.9 0)
 			)
@@ -11231,7 +11231,7 @@
 			(uuid "8e8da1e6-4ee4-4597-b5fa-3f4dd90ec6c9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ITT_4116.step"
+		(model "${KIPRJMOD}/STPS/STC_4116.step"
 			(offset
 				(xyz 3.75 -8.9 0)
 			)
@@ -13037,7 +13037,7 @@
 			(uuid "c48f39d4-6bf6-455a-aebb-1836203bde18")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ITT_4116.step"
+		(model "${KIPRJMOD}/STPS/STC_4116.step"
 			(offset
 				(xyz 3.75 -8.9 0)
 			)
@@ -15849,7 +15849,7 @@
 			(uuid "77043e0c-dbaa-40b3-a6d5-933ad2291d9f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ITT_4116.step"
+		(model "${KIPRJMOD}/STPS/STC_4116.step"
 			(offset
 				(xyz 3.75 -8.9 0)
 			)
@@ -17163,7 +17163,7 @@
 			(uuid "07271ee3-bf21-4201-80df-71ed5cd2407f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ITT_4116.step"
+		(model "${KIPRJMOD}/STPS/STC_4116.step"
 			(offset
 				(xyz 3.75 -8.9 0)
 			)
@@ -19610,7 +19610,7 @@
 			(uuid "e0460f84-4159-444e-9275-3cd79203fdc6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ITT_4116.step"
+		(model "${KIPRJMOD}/STPS/STC_4116.step"
 			(offset
 				(xyz 3.75 -8.9 0)
 			)
@@ -21920,7 +21920,7 @@
 			(uuid "daef1780-b32e-4dea-94de-e4d6a2e741d4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ITT_4116.step"
+		(model "${KIPRJMOD}/STPS/STC_4116.step"
 			(offset
 				(xyz 3.75 -8.9 0)
 			)
@@ -34003,9 +34003,9 @@
 			(uuid "56f52e3a-236d-4a86-baa1-4b79873ef6d1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ROM HITACHI HN613128P.step"
+		(model "${KIPRJMOD}/STPS/ROM NEC D2318C.step"
 			(offset
-				(xyz 7.5 -35 0)
+				(xyz 7.5 -16.5 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -35511,7 +35511,7 @@
 			(uuid "94c6bd7c-52ce-468a-9ba1-3a2258ecc22d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/ITT_4116.step"
+		(model "${KIPRJMOD}/STPS/STC_4116.step"
 			(offset
 				(xyz 3.75 -8.9 0)
 			)
@@ -36787,9 +36787,9 @@
 			(uuid "3bc5878c-ba7f-4e6f-96e8-db321934bd3c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Z80 - NEC 8308P8.step"
+		(model "${KIPRJMOD}/STPS/Z80 - SGS.step"
 			(offset
-				(xyz 7.5 -50 0)
+				(xyz 7.65 -24.2 0)
 			)
 			(scale
 				(xyz 1 1 1)
