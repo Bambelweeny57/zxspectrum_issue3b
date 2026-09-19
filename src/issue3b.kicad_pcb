@@ -262,7 +262,7 @@
 			(uuid "d4522431-5538-440b-90a3-0eaf7568522d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -270,7 +270,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -563,7 +563,7 @@
 			(uuid "119ae61f-91ae-4533-bc50-121dd7f59785")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -571,7 +571,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -965,7 +965,7 @@
 			(uuid "dd1ed6c6-84ef-42a8-bde2-21f532bd964d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -973,7 +973,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -2040,7 +2040,7 @@
 			(uuid "cf135d52-5c2a-4462-b21e-eaff0d75a682")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -2048,7 +2048,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3482,7 +3482,7 @@
 			(uuid "4f5fad44-f7eb-4dc3-840c-42e51893fcd6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -3490,7 +3490,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4318,7 +4318,7 @@
 			(uuid "8dfb9d1b-c64d-416c-a847-d2406dfd2c9f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -4326,7 +4326,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -4610,7 +4610,7 @@
 			(uuid "49d40536-5aca-4436-803f-a8948ebfd708")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -4618,7 +4618,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -5180,7 +5180,7 @@
 			(uuid "2b02a1d5-8356-4492-b947-d0efb36833d8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -5188,7 +5188,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -5821,7 +5821,7 @@
 			(uuid "415b9e5d-60ab-4345-8d45-66c208b22bfe")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -5829,7 +5829,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7184,7 +7184,7 @@
 			(uuid "85efb2e4-858e-4f34-8786-6952feb12328")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -7192,7 +7192,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -8361,7 +8361,7 @@
 			(uuid "393d19ce-2b16-4c37-8c5a-6283564cc948")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -8369,7 +8369,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9162,7 +9162,7 @@
 			(uuid "e97bfc4a-cbaa-400b-a484-15b5ae8d26e4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -9170,7 +9170,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9670,7 +9670,7 @@
 			(uuid "6680892b-c213-4395-ba4e-facae7d03952")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.15 0 -1)
 			)
@@ -9678,7 +9678,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9816,7 +9816,7 @@
 			(uuid "02a5165c-be38-4be9-9cd7-0e948b8ed92a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -9824,7 +9824,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -10108,7 +10108,7 @@
 			(uuid "33af80ef-5f35-4589-a7af-135f21a8d38b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -10116,7 +10116,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -11829,7 +11829,7 @@
 			(uuid "529bc5c2-19c5-4851-a7c9-5416d89dc132")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -11837,7 +11837,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -11975,7 +11975,7 @@
 			(uuid "3a36e51b-64a9-4842-8206-9a34b26791a4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -11983,7 +11983,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -12121,7 +12121,7 @@
 			(uuid "f546db76-7f55-4c03-a3ea-243cd0a94b0f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -12129,7 +12129,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -12267,7 +12267,7 @@
 			(uuid "4aede679-913b-457b-bf3a-fd3c8de8a14c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -12275,7 +12275,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -12705,7 +12705,7 @@
 			(uuid "6853b39e-f41d-4414-8f63-57553b4c3b30")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -12713,7 +12713,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -15517,7 +15517,7 @@
 			(uuid "14f78ebb-b59a-4ef4-8807-5d7c330978b4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -15525,7 +15525,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -16393,7 +16393,7 @@
 			(uuid "f5d85313-5a40-44c0-8d01-da508d36136a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.15 0 -1)
 			)
@@ -16401,7 +16401,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -16539,7 +16539,7 @@
 			(uuid "1c801f90-f42a-474d-b64b-9b97814da40c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -16547,7 +16547,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -18218,7 +18218,7 @@
 			(uuid "beceee97-420d-41e8-a7dc-e66252d68892")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -18226,7 +18226,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -20490,7 +20490,7 @@
 			(uuid "c4a63299-cf89-4db3-9bce-f0074ff992cc")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -20498,7 +20498,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -21588,7 +21588,7 @@
 			(uuid "80c93a8f-6c21-428f-9a36-7275d9273efb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -21596,7 +21596,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -22614,7 +22614,7 @@
 			(uuid "e41f8d5f-305f-4550-b7b0-f3bc99db47f8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -22622,7 +22622,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -23984,7 +23984,7 @@
 			(uuid "a873778a-edc8-46fb-857d-9a1169557deb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -23992,7 +23992,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -25049,7 +25049,7 @@
 			(uuid "23c457ea-4658-4e74-a469-f9aabdaecfd9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -25057,7 +25057,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -25593,7 +25593,7 @@
 			(uuid "f22619fe-7bff-4dff-983e-9b720c154f6f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -25601,7 +25601,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -27474,7 +27474,7 @@
 			(uuid "bd0f1a4d-5b46-4fb7-b894-5f128b4497c5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -27482,7 +27482,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -27620,7 +27620,7 @@
 			(uuid "88b02e6e-1bcc-406d-8356-67f4047cfc2b")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -27628,7 +27628,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -28058,7 +28058,7 @@
 			(uuid "69b287a4-58db-4a5c-8c44-c3491f3e6749")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.15 0 -1)
 			)
@@ -28066,7 +28066,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -28496,7 +28496,7 @@
 			(uuid "5c5a7524-0998-4ee3-858d-9458e3f91284")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -28504,7 +28504,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -29452,7 +29452,7 @@
 			(uuid "6e811693-dcca-4937-aa8b-567ac73477e1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -29460,7 +29460,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -29598,7 +29598,7 @@
 			(uuid "317ed32f-46cf-4d94-b1a4-8f96c2b09435")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -29606,7 +29606,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -30142,7 +30142,7 @@
 			(uuid "2b826aca-462c-4526-8009-3da7fe6c820d")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -30150,7 +30150,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -31602,7 +31602,7 @@
 			(uuid "6a15b053-0ab6-4ae0-828c-2c40bfcb8152")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -31610,7 +31610,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -31748,7 +31748,7 @@
 			(uuid "5f0dc651-fd3e-4a53-9a11-10b7c31a052a")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -31756,7 +31756,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -34149,7 +34149,7 @@
 			(uuid "2f2baf83-b05a-4a3a-ba5d-ff087a8afeb5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -34157,7 +34157,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -34887,7 +34887,7 @@
 			(uuid "9ea9cb63-7215-4f98-b9a1-d4248e5a367f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -34895,7 +34895,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -35657,7 +35657,7 @@
 			(uuid "384575d1-0824-4bc3-a860-8ebe34d70f13")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -35665,7 +35665,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -35949,7 +35949,7 @@
 			(uuid "6d8936ad-4ef1-4305-9472-a7ff747f3bbb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -35957,7 +35957,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -37723,7 +37723,7 @@
 			(uuid "600cbec2-b5fb-49eb-96dd-afac90765555")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -37731,7 +37731,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -38059,7 +38059,7 @@
 			(uuid "d1bd4f80-e9bc-40e4-b6c6-7c1ad2f83149")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -38067,7 +38067,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -38205,7 +38205,7 @@
 			(uuid "87eeaa38-bdde-4cf4-8cba-6b6609d6a69f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -38213,7 +38213,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -38643,7 +38643,7 @@
 			(uuid "7eec15ef-1910-4fa2-980e-f62e73afea84")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -38651,7 +38651,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -38935,7 +38935,7 @@
 			(uuid "4fe2e5e7-867f-4ef7-87f6-59f5a9ee39f6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Capacitor Ceramic No Polarity axial 12.70.STEP"
+		(model "${KIPRJMOD}/STPS/CAP_AXIAL_THT_L5.1-D3.1-P12.70.step"
 			(offset
 				(xyz 6.25 0 0)
 			)
@@ -38943,7 +38943,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
