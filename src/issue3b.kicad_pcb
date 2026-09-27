@@ -819,7 +819,7 @@
 			(uuid "b0db3db4-53c8-4ac6-8bf8-c6cc5fd60435")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -3146,15 +3146,15 @@
 			(uuid "431d3b53-64be-4fca-a3c3-b44241b19ae6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.40.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1)
+				(xyz 6.25 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 0.975 1 1)
 			)
 			(rotate
-				(xyz 90 180 -90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3336,15 +3336,15 @@
 			(uuid "a51ff252-6723-4fd5-897f-8fafd63a9d7c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -3672,15 +3672,15 @@
 			(uuid "ab4c1360-b785-49a8-b995-daaf01f87ff4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7038,7 +7038,7 @@
 			(uuid "c5b7d29a-4037-4e1c-ad3a-8666f8588db4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -8870,15 +8870,15 @@
 			(uuid "80d61d9a-106d-499b-930b-7909c7fd91e7")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -9524,7 +9524,7 @@
 			(uuid "495188ad-44bc-470d-8505-4df8a2e09f3e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -14682,15 +14682,15 @@
 			(uuid "ecebdbc2-1066-4c46-a7bc-7fd9b5de14ea")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -15371,15 +15371,15 @@
 			(uuid "d468b4a8-5420-4370-92cd-cb0a648511f4")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -17419,7 +17419,7 @@
 			(uuid "a1b1f0db-2f43-4ef4-81c7-25db2e05c0c2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -17675,7 +17675,7 @@
 			(uuid "67349f40-e1bb-4894-8d8d-d966172b7b8f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -18474,7 +18474,7 @@
 			(uuid "a4af1038-8bd1-4a7f-ae72-e618147da835")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -18664,15 +18664,15 @@
 			(uuid "103979f5-cb7b-46d6-be1c-a9a648bd4ea1")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -19946,15 +19946,15 @@
 			(uuid "e9863548-7b9e-4085-8e12-23c37489d0af")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -22322,7 +22322,7 @@
 			(uuid "76c2fe34-926f-41fb-94b5-f387bda4988c")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -24425,7 +24425,7 @@
 			(uuid "31b5cdea-4b46-40fe-b4c2-bbe007f5abf2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -27328,7 +27328,7 @@
 			(uuid "49b7bbf4-29a2-40ba-b48e-12ab4d70c986")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -31938,15 +31938,15 @@
 			(uuid "790cbbb3-d980-47a8-8bd2-33bd6ae9d36f")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -32420,15 +32420,15 @@
 			(uuid "a36eec47-5101-45a1-86cc-362c6b7410b5")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -32822,7 +32822,7 @@
 			(uuid "8eda934f-3902-42b8-b4b3-a40bd3e6319e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -34405,7 +34405,7 @@
 			(uuid "ff91a625-16f2-445f-b965-ee408fb305e9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Axial Capacitor.step"
+		(model "${KIPRJMOD}/STPS/CAP-TH_BD6.3-L12.0-P20.32-D0.6.step"
 			(offset
 				(xyz 10 0 -1)
 			)
@@ -34741,15 +34741,15 @@
 			(uuid "ded6cf88-5544-4cf8-951b-00c196e2f6c9")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -37577,15 +37577,15 @@
 			(uuid "04a6d2b2-a5a6-4e22-a404-6f77d51572ab")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -37913,15 +37913,15 @@
 			(uuid "0963284a-d8b3-45f8-94ca-7d8668d8af87")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/DO-35_3.90x1.90x0.60x12.70.STEP"
+		(model "${KIPRJMOD}/STPS/DO-35_P12.70-D0.53.step"
 			(offset
-				(xyz 6.25 0 1.5)
+				(xyz 6.25 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 90)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
