@@ -14031,15 +14031,15 @@
 			(uuid "77ca4d68-5a43-4669-9375-6958c910c5ea")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Transistor Kinked Lead.stp"
+		(model "${KIPRJMOD}/STPS/BC184.step"
 			(offset
-				(xyz 2.65 0 10)
+				(xyz 2.65 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -180 -0 -0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
@@ -21046,15 +21046,15 @@
 			(uuid "c5947619-b7de-4752-8daa-370d3b23d28e")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/Transistor Kinked Lead.stp"
+		(model "${KIPRJMOD}/STPS/BC184.step"
 			(offset
-				(xyz 2.65 -0.25 10)
+				(xyz 2.65 -0.25 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -180 -0 -0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
