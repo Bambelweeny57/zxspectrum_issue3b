@@ -25301,15 +25301,15 @@
 			(uuid "634ad6f2-b4c4-4533-8fdc-adb81bbd21c2")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/STPS/TO-92S_Normal_LF42_rev1.0.STEP"
+		(model "${KIPRJMOD}/STPS/ZTX_450.step"
 			(offset
-				(xyz 1.27 0 3)
+				(xyz 2.66 0 1)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 -180)
 			)
 		)
 	)
